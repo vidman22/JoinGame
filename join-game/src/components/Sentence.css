@@ -1,0 +1,75 @@
+.Sentence {
+	display: block;
+	font-family: 'Helvetica', sans-serif;
+	font-size: 25px;
+	text-align: center;
+	justify-content: center;
+	font-weight: lighter;
+	max-width: 100%
+
+}
+
+.Sentence h3 {
+	margin-top: 5px;
+	font-weight: lighter;
+	display: inline-block;
+	margin-bottom: 0;
+}
+
+.Sentence input {
+	margin-bottom: 12px;
+}
+
+.enter{
+	
+	justify-content:center;
+	flex-direction:column;
+	margin-top: 0;
+}
+
+.enter input{
+	
+	justify-content: center;
+	max-width:45%;
+	margin-top: 0;
+	border-top:none;
+	border-left:none;
+	border-right:none;
+	background: none;
+	text-align: center;
+	height:35px;
+	line-height:20px;
+	font-size:30px;
+	border-bottom:solid 2px #b3b2ca;
+	transition:all .23s ease-in
+}
+.enter input:focus{
+		border-bottom:solid 2px #5d5d8a;
+		outline:none
+}
+.enter .error{
+		text-align:center;
+		margin:5px 0;
+		padding:5px 10px;
+		color:#c92c43
+}
+
+/*@media screen and (max-width: 640px) {
+
+	.enter input {
+		display: block;
+	}
+
+	.enter {
+		display: block;
+	}
+
+	.firstPart {
+		float: none;
+	}
+
+	.secondPart {
+		float: none;
+	}
+
+}*/
