@@ -7,7 +7,7 @@ import GamePlay from './containers/GamePlay';
 import './App.css';
 
 
-const socket = io("https://grammify.xyz");
+const socket = io("http://grammify.xyz");
 
 
 export default class CreateGame extends Component {

@@ -10,7 +10,7 @@ import io from 'socket.io-client';
 const GrammarTest = Grammar.Grammar;
 
 
-const socket = io("https://grammify.xyz");
+const socket = io("http://grammify.xyz");
 
 let index = 0;
 export default class GamePlay extends Component {
